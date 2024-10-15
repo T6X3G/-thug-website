@@ -4,14 +4,77 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5WzPnoPId9SRXC3dN9za-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="80" y="240" width="60" height="80" as="geometry" />
+        <mxCell id="5WzPnoPId9SRXC3dN9za-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-2" target="5WzPnoPId9SRXC3dN9za-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5WzPnoPId9SRXC3dN9za-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="5WzPnoPId9SRXC3dN9za-2" value="Database Plugin" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5WzPnoPId9SRXC3dN9za-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="5WzPnoPId9SRXC3dN9za-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-3" target="5WzPnoPId9SRXC3dN9za-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-3" value="Multithreaded concurent engine" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-4" target="5WzPnoPId9SRXC3dN9za-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-4" target="5WzPnoPId9SRXC3dN9za-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-4" value="Get basic plugin information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-6" target="5WzPnoPId9SRXC3dN9za-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-6" value="Load plugin service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-7" target="5WzPnoPId9SRXC3dN9za-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-7" value="Loaded plugin poc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-9" target="5WzPnoPId9SRXC3dN9za-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-9" value="File parsing import" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-13" target="5WzPnoPId9SRXC3dN9za-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-13" value="Vulnerability detection plugin detects targets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-14" value="Identifying rules to analyze vulnerability information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-15" value="Complete Vulnerability Detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-16" target="5WzPnoPId9SRXC3dN9za-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-16" value="Ip segment parsing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-17" target="5WzPnoPId9SRXC3dN9za-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-17" target="5WzPnoPId9SRXC3dN9za-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-17" value="Complete target loading" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5WzPnoPId9SRXC3dN9za-18" target="5WzPnoPId9SRXC3dN9za-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5WzPnoPId9SRXC3dN9za-18" value="Scanning interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
